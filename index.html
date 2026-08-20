@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Intelligence | Analyze. Improve. Get Hired.</title>
+  <meta name="description" content="Analyze your portfolio, verify your skills, discover career gaps and become job-ready.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+
+  <header class="navbar">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">✦</span>
+      <span>Portfolio<span class="brand-accent"> Intelligence</span></span>
+    </a>
+
+    <nav class="desktop-nav">
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#ai-modes">AI Modes</a>
+    </nav>
+
+    <a class="nav-cta" href="analyze.html">Analyze Portfolio <span>→</span></a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+  </header>
+
+  <div class="mobile-menu">
+    <a href="#features">Features</a>
+    <a href="#how-it-works">How it works</a>
+    <a href="#ai-modes">AI Modes</a>
+    <a href="analyze.html">Analyze Portfolio →</a>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-badge reveal">
+        <span class="pulse-dot"></span>
+        AI-powered portfolio intelligence
+      </div>
+
+      <h1 class="reveal delay-1">
+        Analyze your portfolio.<br>
+        <span class="gradient-text" id="hero-word">Discover your strengths.</span>
+      </h1>
+
+      <p class="hero-description reveal delay-2">
+        Find your gaps, verify your skills, match your profile to your dream role,
+        and get clear recommendations to become job-ready.
+      </p>
+
+      <div class="hero-form reveal delay-3">
+        <div class="input-wrap">
+          <span>🔗</span>
+          <input id="portfolioUrl" type="url" placeholder="https://yourportfolio.com">
+        </div>
+
+        <div class="select-wrap">
+          <select id="targetRole">
+            <option value="Data Analyst">Data Analyst</option>
+            <option value="Data Scientist" selected>Data Scientist</option>
+            <option value="Machine Learning Engineer">Machine Learning Engineer</option>
+            <option value="Data Engineer">Data Engineer</option>
+            <option value="Business Analyst">Business Analyst</option>
+            <option value="Software Developer">Software Developer</option>
+            <option value="Frontend Developer">Frontend Developer</option>
+            <option value="Backend Developer">Backend Developer</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <button class="primary-btn" id="analyzeBtn">
+          Analyze My Portfolio <span>→</span>
+        </button>
+      </div>
+
+      <p class="hero-note reveal delay-4">No account required · Your analysis starts in seconds</p>
+
+      <div class="hero-preview reveal delay-5">
+        <div class="preview-topbar">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <span>portfolio-intelligence.ai / dashboard</span>
+          <span class="live-badge">● LIVE</span>
+        </div>
+
+        <div class="preview-content">
+          <div class="preview-score">
+            <div class="score-ring" style="--score: 78">
+              <div><strong>78</strong><small>/100</small></div>
+            </div>
+            <div>
+              <span class="eyebrow">Portfolio Score</span>
+              <h3>Good foundation</h3>
+              <p>Some improvements could significantly strengthen your profile.</p>
+            </div>
+          </div>
+
+          <div class="preview-cards">
+            <div><span>UI SCORE</span><strong>84</strong><em>+8%</em></div>
+            <div><span>CONTENT</span><strong>76</strong><em>+5%</em></div>
+            <div><span>SKILL PROOF</span><strong>68</strong><em>+12%</em></div>
+            <div><span>ROLE FIT</span><strong>82</strong><em>+9%</em></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-section section" id="features">
+      <div class="section-heading reveal">
+        <span class="eyebrow">ONE PORTFOLIO. DEEP ANALYSIS.</span>
+        <h2>More than a portfolio checker.</h2>
+        <p>Understand what recruiters see, what your portfolio proves, and what you should improve next.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <div class="feature-icon">🎨</div>
+          <h3>UI Analysis</h3>
+          <p>See how professional, readable and recruiter-friendly your portfolio looks.</p>
+          <span class="feature-number">01</span>
+        </article>
+        <article class="feature-card reveal delay-1">
+          <div class="feature-icon">🔎</div>
+          <h3>Skill Verification</h3>
+          <p>Find evidence supporting the skills you claim instead of blindly listing them.</p>
+          <span class="feature-number">02</span>
+        </article>
+        <article class="feature-card reveal delay-2">
+          <div class="feature-icon">💼</div>
+          <h3>Role Matching</h3>
+          <p>Discover how closely your portfolio matches the requirements of your target role.</p>
+          <span class="feature-number">03</span>
+        </article>
+        <article class="feature-card reveal delay-3">
+          <div class="feature-icon">🧠</div>
+          <h3>AI Career Analysis</h3>
+          <p>Turn your portfolio data into personalized, practical recommendations.</p>
+          <span class="feature-number">04</span>
+        </article>
+        <article class="feature-card roast-card reveal">
+          <div class="feature-icon">🔥</div>
+          <h3>Roast Mode</h3>
+          <p>Opt in to brutally honest feedback — followed by actual ways to fix the problems.</p>
+          <span class="feature-number">05</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="process-section section" id="how-it-works">
+      <div class="section-heading reveal">
+        <span class="eyebrow">HOW IT WORKS</span>
+        <h2>From URL to career roadmap.</h2>
+      </div>
+
+      <div class="steps">
+        <div class="step reveal"><span>01</span><div><h3>Connect</h3><p>Paste your portfolio URL and choose your target role.</p></div></div>
+        <div class="step reveal delay-1"><span>02</span><div><h3>Analyze</h3><p>Portfolio content, projects, skills and links are evaluated.</p></div></div>
+        <div class="step reveal delay-2"><span>03</span><div><h3>Verify</h3><p>Skills are matched against real evidence from your work.</p></div></div>
+        <div class="step reveal delay-3"><span>04</span><div><h3>Improve</h3><p>Get prioritized recommendations and actionable fixes.</p></div></div>
+      </div>
+    </section>
+
+    <section class="modes-section section" id="ai-modes">
+      <div class="section-heading reveal">
+        <span class="eyebrow">AI CAREER ASSISTANT</span>
+        <h2>Get a different perspective.</h2>
+        <p>Switch personalities depending on what you need right now.</p>
+      </div>
+
+      <div class="mode-grid">
+        <div class="mode-card reveal"><span>👔</span><h3>HR Mode</h3><p>Would a recruiter shortlist you?</p></div>
+        <div class="mode-card reveal delay-1"><span>🎓</span><h3>Student Mode</h3><p>What should you learn or build next?</p></div>
+        <div class="mode-card reveal delay-2"><span>💙</span><h3>Support Mode</h3><p>Break a huge improvement list into small steps.</p></div>
+        <div class="mode-card roast-mode reveal delay-3"><span>🔥</span><h3>Roast Mode</h3><p>Brutal honesty. Completely opt-in.</p></div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="cta-glow"></div>
+      <span class="eyebrow">READY?</span>
+      <h2>Know what your portfolio<br><span class="gradient-text">is really saying.</span></h2>
+      <p>Analyze it. Fix it. Make it stronger.</p>
+      <a href="analyze.html" class="primary-btn">Analyze My Portfolio <span>→</span></a>
+    </section>
+  </main>
+
+<footer class="site-footer">
+
+  <div class="footer-box">
+
+    <!-- TOP FOOTER -->
+    <div class="footer-main">
+
+      <!-- LEFT -->
+      <div class="footer-intro">
+
+        <div class="footer-brand">
+          <span class="footer-brand-icon">✦</span>
+
+          <span>
+            Portfolio
+            <strong>Intelligence</strong>
+          </span>
+        </div>
+
+        <span class="footer-eyebrow">BUILT WITH PURPOSE</span>
+
+        <h2>
+          Your portfolio
+          <span>tells a story.</span>
+        </h2>
+
+        <p>
+          Portfolio Intelligence helps students and professionals
+          understand what their portfolio says, prove their skills,
+          and become more job-ready.
+        </p>
+
+      </div>
+
+
+      <!-- RIGHT -->
+      <div class="footer-right">
+
+        <div class="footer-column">
+
+          <span class="footer-label">PRODUCT</span>
+
+          <a href="#features">Features <span>↗</span></a>
+          <a href="#how-it-works">How it works <span>↗</span></a>
+          <a href="analyze.html">Analyze Portfolio <span>↗</span></a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+          <span class="footer-label">CONNECT</span>
+
+          <a
+            href="https://github.com/Varshh-hub"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub <span>↗</span>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/varsha-a-4038ab290/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn <span>↗</span>
+          </a>
+
+          <a
+            href="https://varshh-hub.github.io/VARSHA---portfolio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            My Portfolio <span>↗</span>
+          </a>
+
+          <a href="mailto:varshhhh6@gmail.com">
+            Email <span>↗</span>
+          </a>
+
+        </div>
+
+
+        <div class="footer-column about-column">
+
+          <span class="footer-label">ABOUT THE CREATOR</span>
+
+          <p>
+            I'm Varsha A — a B.Sc. Artificial Intelligence &
+            Machine Learning graduate passionate about Data Science,
+            Machine Learning and building practical AI solutions.
+          </p>
+
+          <a
+            class="about-link"
+            href="https://varshh-hub.github.io/VARSHA---portfolio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            More about me <span>↗</span>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- BOTTOM BAR -->
+    <div class="footer-bottom">
+
+      <div class="footer-location">
+        <span class="status-dot"></span>
+        Based in Tamil Nadu, India
+      </div>
+
+      <div class="footer-copy">
+        © 2026 Varsha A
+      </div>
+
+      <div class="footer-made">
+        Designed & Developed by
+        <strong>Varsha A</strong>
+        <span class="footer-star">✦</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

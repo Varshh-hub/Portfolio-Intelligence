@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analyze Portfolio | Portfolio Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/analyze.css">
+</head>
+<body class="analyze-page">
+  <header class="navbar">
+    <a href="index.html" class="brand"><span class="brand-mark">✦</span> Portfolio<span class="brand-accent"> Intelligence</span></a>
+    <a class="nav-back" href="index.html">← Back home</a>
+  </header>
+
+  <main class="analyze-main">
+    <section class="analyze-card" id="inputView">
+      <div class="analysis-icon">✦</div>
+      <span class="eyebrow">PORTFOLIO ANALYSIS</span>
+      <h1>Let's understand your<br><span class="gradient-text">professional profile.</span></h1>
+      <p>Enter your portfolio and choose the role you're targeting. We'll use both to build your analysis.</p>
+
+      <form id="analysisForm">
+        <label>Portfolio URL</label>
+        <div class="large-input"><span>🔗</span><input id="analysisUrl" type="url" required placeholder="https://yourportfolio.com"></div>
+
+        <label>Target Role</label>
+        <div class="large-select"><select id="analysisRole">
+          <option>Data Analyst</option>
+          <option selected>Data Scientist</option>
+          <option>Machine Learning Engineer</option>
+          <option>Data Engineer</option>
+          <option>Business Analyst</option>
+          <option>Software Developer</option>
+          <option>Frontend Developer</option>
+          <option>Backend Developer</option>
+          <option>Other</option>
+        </select></div>
+
+        <label class="check-row"><input type="checkbox" checked> <span>Analyze GitHub if linked</span></label>
+        <button class="primary-btn full-btn" type="submit">Start Analysis <span>→</span></button>
+      </form>
+    </section>
+
+    <section class="loading-card hidden" id="loadingView">
+      <div class="loader-orbit"><span>✦</span></div>
+      <span class="eyebrow">AI ANALYSIS ENGINE</span>
+      <h1>Analyzing your<br><span class="gradient-text">portfolio...</span></h1>
+      <div class="progress-track"><div id="progressBar"></div></div>
+      <strong id="progressPercent">0%</strong>
+
+      <div class="analysis-steps" id="analysisSteps">
+        <div data-step="0"><i></i><span>Portfolio connected</span></div>
+        <div data-step="1"><i></i><span>Collecting portfolio content</span></div>
+        <div data-step="2"><i></i><span>Detecting skills</span></div>
+        <div data-step="3"><i></i><span>Analyzing projects</span></div>
+        <div data-step="4"><i></i><span>Checking skill evidence</span></div>
+        <div data-step="5"><i></i><span>Comparing with target role</span></div>
+        <div data-step="6"><i></i><span>Generating recommendations</span></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/analyze.js"></script>
+</body>
+</html>

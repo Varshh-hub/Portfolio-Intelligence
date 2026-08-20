@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | Portfolio Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body class="dashboard-page">
+  <header class="navbar dashboard-nav">
+    <a href="index.html" class="brand"><span class="brand-mark">✦</span> Portfolio<span class="brand-accent"> Intelligence</span></a>
+    <nav class="desktop-nav">
+      <a href="#overview">Overview</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#recommendations">Recommendations</a><a href="#ai-modes">AI Modes</a>
+    </nav>
+    <a href="analyze.html" class="nav-cta">New Analysis <span>+</span></a>
+    <button class="menu-toggle">☰</button>
+  </header>
+
+  <main class="dashboard-container">
+    <section class="dashboard-hero" id="overview">
+      <div>
+        <span class="eyebrow">PORTFOLIO ANALYSIS · JUST NOW</span>
+        <h1>Your portfolio <span class="gradient-text">at a glance.</span></h1>
+        <p>Target role: <strong id="roleLabel">Data Scientist</strong></p>
+      </div>
+      <div class="role-switcher"><label>Target Role</label><select id="roleSwitcher"><option>Data Scientist</option><option>Data Analyst</option><option>Machine Learning Engineer</option><option>Data Engineer</option></select></div>
+    </section>
+
+    <section class="score-layout">
+      <div class="main-score-card reveal">
+        <div class="score-ring large-ring" style="--score:78"><div><strong data-counter="78">0</strong><small>/100</small></div></div>
+        <div class="score-copy"><span class="eyebrow">YOUR PORTFOLIO SCORE</span><h2>Good foundation.</h2><p>Some improvements could significantly strengthen your profile for <strong>Data Science</strong> roles.</p><span class="status-pill">● Good</span></div>
+      </div>
+      <div class="metric-grid">
+        <div class="metric-card reveal"><span>UI SCORE</span><strong data-counter="84">0</strong><small>/100</small><em>Strong</em></div>
+        <div class="metric-card reveal"><span>CONTENT</span><strong data-counter="76">0</strong><small>/100</small><em>Good</em></div>
+        <div class="metric-card reveal"><span>SKILL PROOF</span><strong data-counter="68">0</strong><small>/100</small><em>Needs work</em></div>
+        <div class="metric-card reveal"><span>ROLE FIT</span><strong data-counter="82">0</strong><small>/100</small><em>Strong</em></div>
+      </div>
+    </section>
+
+    <section class="dashboard-section" id="ui-analysis">
+      <div class="section-title"><div><span class="eyebrow">01 · DESIGN</span><h2>Portfolio Design</h2></div><div class="section-score">84<span>/100</span></div></div>
+      <div class="two-column">
+        <div class="panel">
+          <h3>✓ Strengths</h3>
+          <ul class="check-list"><li>Clean navigation</li><li>Good color consistency</li><li>Projects easy to find</li><li>Responsive layout</li></ul>
+        </div>
+        <div class="panel warning-panel">
+          <h3>⚠ Improvements</h3>
+          <ul class="warning-list"><li><span>Improve project visual hierarchy</span><button>Fix This →</button></li><li><span>Increase text readability</span><button>Fix This →</button></li><li><span>Add stronger call-to-action</span><button>Fix This →</button></li><li><span>Fix broken GitHub link</span><button>Fix This →</button></li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="dashboard-section">
+      <div class="section-title"><div><span class="eyebrow">02 · CONTENT</span><h2>Content Quality</h2></div><div class="section-score">76<span>/100</span></div></div>
+      <div class="content-grid">
+        <div class="content-item good"><span>About</span><b>✓</b></div><div class="content-item good"><span>Education</span><b>✓</b></div><div class="content-item good"><span>Projects</span><b>✓</b></div><div class="content-item good"><span>Skills</span><b>✓</b></div><div class="content-item weak"><span>Experience</span><b>⚠</b></div><div class="content-item good"><span>Certifications</span><b>✓</b></div><div class="content-item good"><span>Contact</span><b>✓</b></div><div class="content-item good"><span>GitHub</span><b>✓</b></div><div class="content-item good"><span>LinkedIn</span><b>✓</b></div>
+      </div>
+    </section>
+
+    <section class="dashboard-section" id="skills">
+      <div class="section-title"><div><span class="eyebrow">03 · VERIFICATION</span><h2>Skills Analysis</h2></div><a class="text-link" href="#skill-proof">View evidence →</a></div>
+      <div class="skills-layout">
+        <div class="panel">
+          <h3>Strongly Supported</h3>
+          <div class="skill-bars">
+            <div class="skill"><div><span>Python</span><b>95%</b></div><div class="bar"><i style="width:95%"></i></div></div>
+            <div class="skill"><div><span>Pandas</span><b>90%</b></div><div class="bar"><i style="width:90%"></i></div></div>
+            <div class="skill"><div><span>NumPy</span><b>88%</b></div><div class="bar"><i style="width:88%"></i></div></div>
+            <div class="skill"><div><span>SQL</span><b>82%</b></div><div class="bar"><i style="width:82%"></i></div></div>
+            <div class="skill"><div><span>Machine Learning</span><b>86%</b></div><div class="bar"><i style="width:86%"></i></div></div>
+          </div>
+        </div>
+        <div class="panel">
+          <h3>Weak Evidence</h3>
+          <div class="skill-bars">
+            <div class="skill weak"><div><span>TensorFlow</span><b>30%</b></div><div class="bar"><i style="width:30%"></i></div></div>
+            <div class="skill weak"><div><span>AWS</span><b>20%</b></div><div class="bar"><i style="width:20%"></i></div></div>
+          </div>
+          <h3 class="missing-heading">Missing Skills</h3>
+          <div class="missing-tags"><span>× Power BI</span><span>× Excel</span><span>× MLOps</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dashboard-section" id="skill-proof">
+      <div class="section-title"><div><span class="eyebrow">04 · EVIDENCE</span><h2>Skill Proof</h2></div><div class="section-score">68<span>/100</span></div></div>
+      <div class="evidence-list">
+        <article class="evidence-card"><div class="evidence-header"><h3>Python</h3><strong>95% Evidence</strong></div><div class="evidence-points"><span>✓ Listed in Skills</span><span>✓ Used in Disease Prediction project</span><span>✓ GitHub repository found</span><span>✓ Mentioned in project description</span></div><p class="evidence-good">Strong evidence — keep Python on your portfolio.</p></article>
+        <article class="evidence-card weak-evidence"><div class="evidence-header"><h3>TensorFlow</h3><strong>20% Evidence</strong></div><div class="evidence-points"><span>✓ Listed in Skills</span><span>✕ No relevant project found</span><span>✕ No certification found</span><span>✕ No GitHub evidence found</span></div><p class="evidence-warning">Recommendation: Add supporting evidence or remove this skill.</p><button class="fix-btn">Fix This →</button></article>
+      </div>
+    </section>
+
+    <section class="dashboard-section" id="projects">
+      <div class="section-title"><div><span class="eyebrow">05 · PROJECTS</span><h2>Your Projects</h2></div></div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-top"><span class="project-icon">🧬</span><span class="relevance">91/100</span></div>
+          <h3>Disease Prediction System</h3><p>Strong alignment with Data Science through machine learning, preprocessing and model evaluation.</p>
+          <div class="project-tags"><span>Python ✓</span><span>Machine Learning ✓</span><span>Scikit-learn ✓</span><span>Model Evaluation ✓</span></div>
+          <div class="project-bottom"><span>Data Scientist relevance</span><button>View Analysis →</button></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-icon">◈</span><span class="relevance low">43/100</span></div>
+          <h3>Portfolio Website</h3><p>Shows web development ability and presentation skills, but has limited direct evidence for Data Science.</p>
+          <div class="project-tags"><span>HTML ✓</span><span>CSS ✓</span><span>JavaScript ✓</span></div>
+          <div class="project-bottom"><span>Data Scientist relevance</span><button>View Analysis →</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="dashboard-section role-fit-section">
+      <div class="role-fit-card">
+        <div class="role-score"><span class="eyebrow">ROLE READINESS</span><div><strong>74</strong><small>/100</small></div><p>Data Scientist</p></div>
+        <div class="fit-column"><h3>🟢 Strong Match</h3><div class="tag-list"><span>Python</span><span>Pandas</span><span>Machine Learning</span><span>Statistics</span></div></div>
+        <div class="fit-column"><h3>🟡 Needs Improvement</h3><div class="tag-list yellow"><span>Deployment</span><span>Advanced ML</span><span>SQL</span></div></div>
+        <div class="fit-column"><h3>🔴 Missing</h3><div class="tag-list red"><span>MLOps</span><span>Cloud</span><span>End-to-end deployment</span></div></div>
+      </div>
+    </section>
+
+    <section class="dashboard-section gap-section">
+      <div class="section-title"><div><span class="eyebrow">06 · SKILL GAP</span><h2>What You're Missing</h2></div></div>
+      <div class="gap-layout">
+        <div class="panel">
+          <div class="gap-row"><span>Python</span><b>85%</b><div><i style="width:85%"></i></div></div>
+          <div class="gap-row"><span>SQL</span><b>78%</b><div><i style="width:78%"></i></div></div>
+          <div class="gap-row"><span>Statistics</span><b>72%</b><div><i style="width:72%"></i></div></div>
+          <div class="gap-row"><span>Deployment</span><b>38%</b><div><i style="width:38%"></i></div></div>
+          <div class="gap-row"><span>Cloud</span><b>22%</b><div><i style="width:22%"></i></div></div>
+        </div>
+        <div class="priority-card"><span class="eyebrow">YOUR PRIORITY</span><ol><li><b>Deployment</b><span>Build and deploy one end-to-end project.</span></li><li><b>Advanced SQL</b><span>Practice joins, CTEs and window functions.</span></li><li><b>Cloud</b><span>Learn one deployment platform.</span></li></ol></div>
+      </div>
+    </section>
+
+    <section class="dashboard-section" id="recommendations">
+      <div class="section-title"><div><span class="eyebrow">07 · ACTION PLAN</span><h2>What Should You Do Next?</h2></div></div>
+      <div class="recommendations">
+        <article class="recommendation high"><span>HIGH PRIORITY</span><h3>Add one end-to-end Data Science project.</h3><p>Show data collection → preprocessing → modeling → evaluation → deployment.</p><button>Fix This →</button></article>
+        <article class="recommendation medium"><span>MEDIUM PRIORITY</span><h3>Strengthen evidence for your statistics skills.</h3><p>Add statistical analysis to an existing project and explain your findings.</p><button>Fix This →</button></article>
+        <article class="recommendation low"><span>LOW PRIORITY</span><h3>Improve the visual presentation of projects.</h3><p>Add screenshots, measurable results and clearer project outcomes.</p><button>Fix This →</button></article>
+      </div>
+    </section>
+
+    <section class="dashboard-section" id="ai-modes">
+      <div class="section-title"><div><span class="eyebrow">08 · AI ASSISTANT</span><h2>Choose your perspective.</h2></div></div>
+      <div class="ai-mode-tabs"><button class="mode-tab active" data-mode="hr">👔 HR</button><button class="mode-tab" data-mode="student">🎓 Student</button><button class="mode-tab" data-mode="support">💙 Support</button><button class="mode-tab roast-tab" data-mode="roast">🔥 Roast</button></div>
+      <div class="chat-panel">
+        <div class="chat-header"><span id="chatIcon">👔</span><div><strong id="chatTitle">HR Mode</strong><small id="chatSubtitle">Recruiter perspective</small></div><span class="online-dot">● Online</span></div>
+        <div class="chat-body"><div class="ai-message" id="aiMessage">Your portfolio demonstrates strong technical foundations, but your project evidence could be stronger for a Data Scientist role.</div><div class="quick-prompts" id="quickPrompts"><button>Would you shortlist me?</button><button>What are my biggest red flags?</button><button>What would HR notice first?</button></div></div>
+        <div class="chat-input"><input placeholder="Ask something..."><button>➤</button></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="brand"><span class="brand-mark">✦</span> Portfolio<span class="brand-accent"> Intelligence</span></div><span>Mock frontend · ML integration coming next</span></footer>
+
+  <div class="modal hidden" id="roastModal">
+    <div class="modal-box"><button class="modal-close" id="closeModal">×</button><div class="roast-big">🔥</div><span class="eyebrow">ROAST MODE</span><h2>Are you sure? 😭</h2><p>This mode gives brutally honest feedback. No sugar coating.</p><div class="modal-actions"><button id="cancelRoast">Maybe later</button><button class="danger-btn" id="doRoast">DO IT 🔥</button></div></div>
+  </div>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
