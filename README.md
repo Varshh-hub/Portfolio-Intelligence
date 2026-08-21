@@ -230,11 +230,11 @@ Evidence Engine   Project Relevance
 ## Development Roadmap
 
 * [x] Project concept and architecture
-* [ ] Frontend interface
-* [ ] Portfolio URL processing
-* [ ] Web scraping pipeline
-* [ ] Portfolio parsing
-* [ ] Skill extraction and normalization
+* [x] Frontend interface
+* [x] Portfolio URL processing
+* [x] Web scraping pipeline
+* [x] Portfolio parsing
+* [x] Skill extraction and normalization
 * [ ] Evidence analysis
 * [ ] Role competency database
 * [ ] Project-role similarity
