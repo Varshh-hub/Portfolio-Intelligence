@@ -1,0 +1,4 @@
+candidate_id,qualification,institution,field_of_study,start_year,end_year,year,source_url,evidence_text,source_type
+CAND_0001,,,Machine Learning,,,,https://varshh-hub.github.io/VARSHA---portfolio,"01 currently pursuing Advanced Data Science Program - Entri Elevate Advanced Data Science with Machine Learning , Deep Learning and Gen AI Entri Elevate COURSE COMPLETION IN PROGRESS",education
+CAND_0001,Bachelor,,Artificial Intelligence And Machine Learning,2023,2026,2026,https://varshh-hub.github.io/VARSHA---portfolio,02 2023 - 2026 Bachelor of Science Artificial Intelligence and Machine Learning CGPA : 89.0,education
+CAND_0001,Higher Secondary,,Computer Science,,2023,2023,https://varshh-hub.github.io/VARSHA---portfolio,03 2023 Higher Secondary Certificate Computer Science with mathematics PERCENTAGE : 88.6%,education

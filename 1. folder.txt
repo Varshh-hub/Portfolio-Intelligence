@@ -1,14 +1,68 @@
-FRONTEND
 - analyse.html
 - dashboard.html
 - index.html
+- portfolio_preprocessed.csv
+- Portfolio_scraper.ipynb
+- preprocessing.ipynb
+- scraper_pf.ipynb
 
-FRONTEND/ css/
+ css/
 - analyse.css
 - dashboard.css
 - styles.css
 
-FRONTEND/ js/
+js/
 - analyse.js
 - dashboard.js
 - main.js
+
+data_collection/
+
+portfolio_data/
+- candidates.csv
+- certificates.csv
+- education.csv
+- experience.csv
+- links.csv
+- pages.csv
+- projects.csv
+- skills_evidence.csv 
+portfolio_data/ certificate images/
+
+
+
+PortfolioIQ/
+│
+├── css/
+│   ├── analyze.css
+│   ├── dashboard.css
+│   └── style.css
+│
+├── js/
+│   ├── analyze.js
+│   ├── dashboard.js
+│   └── main.js
+│
+├── data_collection/
+│
+├── portfolio_data/
+│   ├── candidates.csv
+│   ├── certificates.csv
+│   ├── education.csv
+│   ├── experience.csv
+│   ├── links.csv
+│   ├── pages.csv
+│   ├── projects.csv
+│   └── skills_evidence.csv
+│
+├── certificate images/
+│
+├── analyze.html
+├── dashboard.html
+├── index.html
+│
+├── portfolio_scraper.ipynb
+├── scraper_pf.ipynb
+├── preprocessing.ipynb
+│
+└── portfolio_preprocessed.csv

@@ -1,0 +1,6 @@
+candidate_id,source_url,link_url,link_type,platform,is_internal,status
+CAND_0001,https://varshh-hub.github.io/VARSHA---portfolio,https://github.com/Varshh-hub,external,GitHub,False,discovered
+CAND_0001,https://varshh-hub.github.io/VARSHA---portfolio,https://www.linkedin.com/in/varsha-a-4038ab290,external,LinkedIn,False,discovered
+CAND_0001,https://varshh-hub.github.io/VARSHA---portfolio,https://varshh-hub.github.io/VARSHA---portfolio/certificates/resume.pdf,document,Document,True,discovered
+CAND_0001,https://varshh-hub.github.io/VARSHA---portfolio,mailto:varshhhh6@gmail.com,email,Email,False,discovered
+CAND_0001,https://varshh-hub.github.io/VARSHA---portfolio,tel:+919842207373,phone,Phone,False,discovered

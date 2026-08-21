@@ -1,0 +1,11 @@
+candidate_id,project_name,description,skills,project_url,source_url,evidence_text,source_type
+CAND_0001,Projects where I turn data into solutions.,SELECTED WORK Projects where I turn data into solutions.,,,https://varshh-hub.github.io/VARSHA---portfolio,SELECTED WORK Projects where I turn data into solutions.,project
+CAND_0001,Restaurant Review Analyzer,"01 DATA ANALYTICS Restaurant Review Analyzer Analyzed restaurant datasets using Python to identify trends,
+              customer ratings, cuisines, and city-wise insights through
+              data visualization. Restaurant dataset analysis Customer rating insights City-wise analysis Data visualization Python Pandas Matplotlib Seaborn","pandas, python",,https://varshh-hub.github.io/VARSHA---portfolio,"01 DATA ANALYTICS Restaurant Review Analyzer Analyzed restaurant datasets using Python to identify trends,
+              customer ratings, cuisines, and city-wise insights through
+              data visualization. Restaurant dataset analysis Customer rating insights City-wise analysis Data visualization Python Pandas Matplotlib Seaborn",project
+CAND_0001,Future Data Science Project,04 COMING SOON Future Data Science Project A new data-driven project will be added here soon. IN DEVELOPMENT,,,https://varshh-hub.github.io/VARSHA---portfolio,04 COMING SOON Future Data Science Project A new data-driven project will be added here soon. IN DEVELOPMENT,project
+CAND_0001,Future ML Project,"05 COMING SOON Future ML Project Exploring new machine learning ideas and practical
+              applications. COMING SOON",machine learning,,https://varshh-hub.github.io/VARSHA---portfolio,"05 COMING SOON Future ML Project Exploring new machine learning ideas and practical
+              applications. COMING SOON",project
